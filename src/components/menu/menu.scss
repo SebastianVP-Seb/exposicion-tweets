@@ -1,0 +1,27 @@
+.menu {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+
+    &_btn {
+        border: none;
+        border-radius: 1rem;
+        padding: .5rem 1rem;
+        transition: all .5s;
+        font-weight: bold;
+
+        &:hover {
+            cursor: pointer;
+            background-color: aqua;
+        }
+    }
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
